@@ -1,4 +1,5 @@
 Jira Delivery Intelligence 🚀
+
 An enterprise-grade analytics engine and dashboard designed to transform raw Jira data into actionable delivery insights. This project handles large-scale datasets (10,000+ issues) using a containerized ELT (Extract, Load, Transform) architecture.
 
 
