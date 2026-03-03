@@ -4,6 +4,10 @@ An enterprise-grade analytics engine and dashboard designed to transform raw Jir
 
 --------------------------------------
 
+![Project Outlook](./images/whole.png)
+
+--------------------------------------
+
 🌟 Key Features
 
 1. Automated Data Pipeline: Extracts data from Jira Cloud APIs and loads it into a local PostgreSQL warehouse.
