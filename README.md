@@ -1,4 +1,4 @@
-Jira Delivery Intelligence 🚀
+# Jira Delivery Intelligence 🚀
 
 
 An enterprise-grade analytics engine and dashboard designed to transform raw Jira data into actionable delivery insights. This project handles large-scale datasets (10,000+ issues) using a containerized ELT (Extract, Load, Transform) architecture.
@@ -9,7 +9,7 @@ An enterprise-grade analytics engine and dashboard designed to transform raw Jir
 
 --------------------------------------
 
-🌟 Key Features
+## 🌟 Key Features
 
 1. Automated Data Pipeline: Extracts data from Jira Cloud APIs and loads it into a local PostgreSQL warehouse.
 2. Smart Story Point Engine: Automatically calculates story points based on time-spent and original estimates for historical tickets without manual entry.
@@ -22,7 +22,7 @@ An enterprise-grade analytics engine and dashboard designed to transform raw Jir
 
 --------------------------------------------------
 
-🏗️ Technical Architecture
+## 🏗️ Technical Architecture
 
 Frontend: React 18, Tailwind CSS, Recharts (for data visualization), Lucide Icons.
 
@@ -34,7 +34,7 @@ Infrastructure: Docker & Docker Compose for full environment orchestration.
 
 --------------------------------------------------
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 Prerequisites
 1. Docker Desktop
@@ -79,13 +79,13 @@ Open http://localhost:3000. The system will automatically begin the initial data
 
 -----------------------------------------------------
 
-🛠️ Performance & Scaling
+## 🛠️ Performance & Scaling
 
 This project is optimized for large Jira instances. During the initial sync of 11,000+ issues, the system employs a background worker to prevent API timeouts. The UI includes a dynamic "Data Warehouse Building" state with an automated countdown and refresh logic to ensure a smooth user experience during high-volume data ingestion.
 
 ------------------------------------------------------
 
-How to use this:
+## How to use this:
 
 1. Create a new file in your root jira-analytics folder named README.md
    
